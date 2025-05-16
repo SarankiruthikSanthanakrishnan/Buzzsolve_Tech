@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BuzzSolve Tech</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">BuzzSolve <span>Tech</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Empowering Innovation Through Technology</h1>
+      <p>BuzzSolve Tech – Your trusted digital transformation partner.</p>
+      <a href="#contact" class="btn">Let's Talk</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>BuzzSolve Tech is committed to delivering top-notch digital solutions including web development, AI integrations, and scalable software products. We focus on innovation, quality, and client success.</p>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-boxes">
+        <div class="box">
+          <h3>Web Development</h3>
+          <p>Modern, scalable, and responsive websites to boost your online presence.</p>
+        </div>
+        <div class="box">
+          <h3>App Development</h3>
+          <p>iOS and Android mobile apps crafted for performance and usability.</p>
+        </div>
+        <div class="box">
+          <h3>AI & Automation</h3>
+          <p>Smarter solutions using machine learning and business automation tools.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Ready to get started? Reach out and let's build something amazing together!</p>
+      <a href="mailto:contact@buzzsolve.tech" class="btn">Email Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BuzzSolve Tech. Designed with ❤️.</p>
+  </footer>
+
+  <script>
+    // Smooth scrolling for navigation
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
